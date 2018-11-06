@@ -4,21 +4,6 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class signinResponse {
-    @SerializedName("cbId")
-    @Expose
-    private String cbId;
-    @SerializedName("email")
-    @Expose
-    private String email;
-    @SerializedName("syndicateId")
-    @Expose
-    private String syndicateId;
-    @SerializedName("emailUnsub")
-    @Expose
-    private String emailUnsub;
-    @SerializedName("nid")
-    @Expose
-    private String nid;
     @SerializedName("user_id")
     @Expose
     private String userId;
@@ -46,68 +31,7 @@ public class signinResponse {
     @SerializedName("mobile_phone_number")
     @Expose
     private String mobilePhoneNumber;
-    @SerializedName("email_retail")
-    @Expose
-    private Boolean emailRetail;
-    @SerializedName("email_promo")
-    @Expose
-    private Boolean emailPromo;
-    @SerializedName("email_coup")
-    @Expose
-    private Boolean emailCoup;
-    @SerializedName("mobile_verified")
-    @Expose
-    private Boolean mobileVerified;
-    @SerializedName("confirmed")
-    @Expose
-    private Boolean confirmed;
-    @SerializedName("cashBackUser")
-    @Expose
-    private Boolean cashBackUser;
-    @SerializedName("couponsUser")
-    @Expose
-    private Boolean couponsUser;
-
-    public String getCbId() {
-        return cbId;
-    }
-
-    public void setCbId(String cbId) {
-        this.cbId = cbId;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getSyndicateId() {
-        return syndicateId;
-    }
-
-    public void setSyndicateId(String syndicateId) {
-        this.syndicateId = syndicateId;
-    }
-
-    public String getEmailUnsub() {
-        return emailUnsub;
-    }
-
-    public void setEmailUnsub(String emailUnsub) {
-        this.emailUnsub = emailUnsub;
-    }
-
-    public String getNid() {
-        return nid;
-    }
-
-    public void setNid(String nid) {
-        this.nid = nid;
-    }
-
+    
     public String getUserId() {
         return userId;
     }
@@ -178,61 +102,5 @@ public class signinResponse {
 
     public void setMobilePhoneNumber(String mobilePhoneNumber) {
         this.mobilePhoneNumber = mobilePhoneNumber;
-    }
-
-    public Boolean getEmailRetail() {
-        return emailRetail;
-    }
-
-    public void setEmailRetail(Boolean emailRetail) {
-        this.emailRetail = emailRetail;
-    }
-
-    public Boolean getEmailPromo() {
-        return emailPromo;
-    }
-
-    public void setEmailPromo(Boolean emailPromo) {
-        this.emailPromo = emailPromo;
-    }
-
-    public Boolean getEmailCoup() {
-        return emailCoup;
-    }
-
-    public void setEmailCoup(Boolean emailCoup) {
-        this.emailCoup = emailCoup;
-    }
-
-    public Boolean getMobileVerified() {
-        return mobileVerified;
-    }
-
-    public void setMobileVerified(Boolean mobileVerified) {
-        this.mobileVerified = mobileVerified;
-    }
-
-    public Boolean getConfirmed() {
-        return confirmed;
-    }
-
-    public void setConfirmed(Boolean confirmed) {
-        this.confirmed = confirmed;
-    }
-
-    public Boolean getCashBackUser() {
-        return cashBackUser;
-    }
-
-    public void setCashBackUser(Boolean cashBackUser) {
-        this.cashBackUser = cashBackUser;
-    }
-
-    public Boolean getCouponsUser() {
-        return couponsUser;
-    }
-
-    public void setCouponsUser(Boolean couponsUser) {
-        this.couponsUser = couponsUser;
     }
 }
