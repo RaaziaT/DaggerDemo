@@ -17,15 +17,4 @@ public interface NetworkRequestInterfaces {
 
     @POST("clipapi/rest/users/sign-up")
     Call<signupRequest> SignUp(@Body signupRequest requestSignUpModel);
-
-//    @GET("placementapi/schedule/pages/daily/web")
-//    Call<List<CouponResponse>> couponsRequest(
-//                    @Query("startDate") String date,
-//                    @Query("pageName") String coupon
-//            );
-//    @GET("placementapi/schedule/pages/daily/web")
-//    Call<List<CashbackResponse>> cashbackRequest(
-//            @Query("startDate") String date,
-//            @Query("pageName") String coupon
-//    );
 }
